@@ -10,6 +10,7 @@ const Test02 = () => {
     const address = '서울시 강남구 강남대로'
 
     const css1 ={
+        width:700,
         color: 'red',
         backgroundColor: 'yellow',
         fontSize: '30pt',
@@ -24,7 +25,7 @@ const Test02 = () => {
         backgroundColor: 'hotpink',
         fontSize: 20,
         padding: 15,
-        margin: 30,
+        margin: 50,
     }
 
     return (

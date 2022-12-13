@@ -9,7 +9,6 @@ import Test05 from './component/Test05';
 const App = () => { //function App (){}
   return(
     <div>
-      {/* 
       <Dog/>
       <hr/>
       <Test01></Test01>
@@ -18,7 +17,7 @@ const App = () => { //function App (){}
       <hr/>
       <Test03/> 
       <Test04/>
-      */}
+     
       <Test05/>
     </div>
   );
