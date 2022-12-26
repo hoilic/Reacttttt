@@ -25,8 +25,8 @@ const Test02 = () => {
             <hr/>
             <ul style={{border: '1px solid blue'}}>
                 {
-                      data.map((item, index)=>{
-                        return(<li key={item.id}>{item.id}:{item.name}</li>)
+                      data.map((i, a)=>{
+                        return(<li key={i.id}>{i.id}:{i.name}:{a}</li>)
                     })
                 }
             </ul>

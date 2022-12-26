@@ -10,13 +10,20 @@ import Cat from './component/Cat';
 const App = () => {
   return (
     <div>
-      {/* <Test01/> */}
-      {/* <Test02/> */}
-      {/* <Test03/>  */}
-      {/* <Test04/> */}
-      {/* <Test05/> */}
-      {/* <Test06/> */}
+      <Test01/>
+      <hr/>
+      <Test02/>
+      <hr/>
+      <Test03/> 
+      <hr/>
+      <Test04/>
+      <hr/>
+      <Test05/>
+      <hr/>
+      <Test06/>
+      <hr/>
       <Cat/>
+     
     </div>
   );
 };

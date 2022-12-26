@@ -36,7 +36,7 @@ const Test06 = () => {
                                     <td>{item.name}</td>
                                     <td>{item.age}</td>
                                     <td>{item.addr}</td>
-                                    <td>{item.done}</td>
+                                    <td>{item.done?"동의":"비동의"}</td>
                                   </tr>
                         })
                     }

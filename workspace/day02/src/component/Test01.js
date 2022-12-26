@@ -21,14 +21,14 @@ const Test01 = () => {
         <div>
             <h2>이벤트 : on+첫글자 대문자</h2>
             <p>
-                <button onClick={test1}>클릭</button> 
+                <button onClick={test1}>클릭1</button> 
                 {/* {test1()} 하면 클릭 안해도 onload 되어 창에 그냥 띄어짐,  */}
                 
-                <button onClick={test2}>클릭</button> 
+                <button onClick={test2}>클릭2</button> 
 
-                <button onClick={() => test3(10)}>클릭</button> 
+                <button onClick={() => test3(10)}>클릭3</button> 
 
-                <button onClick={() => test4(20)}>클릭</button> 
+                <button onClick={() => test4(20)}>클릭4</button> 
             </p>
             <p>
                 <button onClick={()=>{

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 const Test03 = () => {
+    //초기값 설정
     const [ name, setName ] = useState('홍길동')
     const [ age, setAge ] = useState(25)
     const [ color, setColor ] = useState('cyan')

@@ -15,7 +15,7 @@ import Test11 from './component/Test11';
 const App = () => {
   return (
     <div>
-       {/* <Test01/>
+       <Test01/>
        <hr/>
        <Test02/>
        <hr/>
@@ -24,16 +24,16 @@ const App = () => {
        <Test04/>
        <hr/>
        <Test05/>
-       <hr/> */}
-       {/* <Test06/>
-       <hr/> */}
-       {/* <Test07Main/>
-       <hr/> */}
-       {/* <Test08Gallery/> */}
-       {/* <Test09/>
+       <hr/> 
+        <Test06/>
+       <hr/> 
+       <Test07Main/>
+       <hr/> 
+       <Test08Gallery/> 
+        <Test09/>
        <hr/>
        <Test10/>
-       <hr/> */}
+       <hr/>
        <Test11/>
     </div>
   );

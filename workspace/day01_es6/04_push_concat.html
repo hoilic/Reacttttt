@@ -13,6 +13,7 @@
         arr.push(50)
         arr.push(60)
         console.log(arr)
+        console.log('arr = ' + arr)
 
         const arr1 = [10, 20, 30]
         const arr2 = arr1.concat()//사본
@@ -35,6 +36,12 @@
             {id:4, name:'라이언', age: 35}
         )
         console.log(data2[3].id, data2[3].name, data2[3].age)
+
+        const data3 = data.concat(
+            {id:4, name:'라이언', age: 35}
+        )
+        console.log(data3[2].id, data3[2].name, data3[2].age)
+
     </script>
 </body>
 </html>

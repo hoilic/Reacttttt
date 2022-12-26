@@ -5,7 +5,9 @@ import '../css/reset.css';
 import CatList from './CatList';
 
 const Cat = () => {
+    //초기값 설정
     const[data, setData]  = useState(dataList)
+    
     return (
         <>
             <section className='business'>

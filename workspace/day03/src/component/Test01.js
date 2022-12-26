@@ -9,8 +9,12 @@ const Test01 = () => {
 
     const onChangeId = (e) => {
         //비구조 할당, input 태그안에 모든 속성중에서 value만 가져온다.
-        const{value} = e.target //이벤트가 발생한 대상 비구조 분해
+        const {value} = e.target//이벤트가 발생한 대상 비구조 분해 
+        //e.target 에서 target 은 속성값 전체를 다 말한다. 여러개 중에 value 만 꺼내려고 ㅎ
+        
         setId(value)
+        // const {id} = e.target
+        // console.log(id)
     }
     
     const onChangePwd = (e) => {
@@ -25,7 +29,7 @@ const Test01 = () => {
     }
     return (
         <div>
-            아이디 : <input type="text" value={id} onChange={onChangeId} ref={idRef}/>
+            아이디 : <input type="text" id="h" value={id} onChange={onChangeId} ref={idRef}/>
             <br/>
             비밀번호 : <input type="password" value={pwd} onChange={onChangePwd}/>
             <br/>

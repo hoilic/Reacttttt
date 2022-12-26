@@ -6,7 +6,7 @@ const Test03 = () => {
         <div >
             <h1 >클래스 적용</h1>
             <div className='con-box'>             
-            <article >test</article>
+            <article>test</article>
             <article>test</article>
             <article>test</article>
             <article>test</article>

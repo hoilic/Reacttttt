@@ -17,11 +17,14 @@
 
         //화살표 함수
         const make2 = () => {
-            console.log('Have a nice day!')
+            console.log('Happy Day!')
         }
         make2()//호출
+
+
         function make3(a,b){
             console.log(`${a} + ${b} = ${a+b}`)
+            console.log(a+' + '+b+ ' = '+(a+b))//이렇게 하면 어려우닌까 백틱을 쓰자 ㅋ
         }
         make3(25, 36)
 
@@ -31,13 +34,17 @@
             console.log(`num = ${num}값`)
         }
         make22(100)//호출
+
+        const make5 = num => {
+            console.log(`num = ${num}값`)
+        }
+        make5(250)//호출
+
+        
         const make33 = (a, b)=> {
             console.log(`${a} + ${b} = ${a+b}`)
         }
         make33(25, 36)
-
-    
-
 
     </script>
 </body>
@@ -45,11 +52,11 @@
 </html>
 <!-- 
 ① 매개변수가 없을 경우
-function(){} → () => { ... }
+const(){} → () => { ... }
 
 ② 매개변수가 한 개인 경우, 소괄호를 생략 가능
-function(x){} → (x) => { ... }
+const(x){} → (x) => { ... }
 
 ③ 매개변수가 여러 개인 경우, 소괄호를 생략할 수 없다.
-function(x,y){} → (x, y) => { ... } 
+const(x,y){} → (x, y) => { ... } 
 -->

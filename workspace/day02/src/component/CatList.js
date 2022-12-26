@@ -5,7 +5,7 @@ const CatList = ({data}) => {
     return (
         <ul className='list2'>
             {
-                data.map(item => <CatItem key={item.id} item={item}/>)
+                data.map(a => <CatItem key={a} b={a}/>)
             }
         </ul>
     );
